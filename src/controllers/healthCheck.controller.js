@@ -1,7 +1,7 @@
 import { applicationMsg } from "../constant/index.js";
 
 /* check the server working as expected or not */
-export const getHealthCheck = async (req, res) => {
+const getHealthCheck = async (req, res) => {
   try {
     return res
       .status(200)
@@ -17,4 +17,8 @@ export const getHealthCheck = async (req, res) => {
       error: error.message,
     });
   }
+};
+
+export const apiHealthCheck = {
+  getHealthCheck,
 };

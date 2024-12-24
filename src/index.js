@@ -23,7 +23,7 @@ app.use("/", router());
 
 /* handle undefined routes (404) */
 app.use((req, res, next) => {
-  const error = new Error(appMsg.notFound);
+  const error = new Error(applicationMsg.not_found);
   error.status = 404;
   next(error);
 });

@@ -8,6 +8,7 @@ export const applicationMsg = {
   server_msg: "Server running on port:",
   server_connected: "Server connected successfully.",
   server_wrong: "Something went wrong, please try again later.",
+  not_found: "The API url not found.",
 };
 
 export const commonMsg = {
@@ -22,4 +23,12 @@ export const userMsg = {
   new_created: "New user created successfully.",
   exist_email: "Email address is not exist!",
   login_successfully: "You are successfully logged-in",
+  access_denied: "Access denied. No token provided.",
+  not_user_access: "Access denied. you don't have permission.",
+  invalid_token: "Invalid token, please login again",
+  update_success: "User information successfully updated.",
+  update_password: "Password successfully updated.",
+  expire_user_token: "The token is expired or invalid.",
+  not_found_user: "The user is not found",
+  wrong_password: "You have entered wrong password.",
 };
